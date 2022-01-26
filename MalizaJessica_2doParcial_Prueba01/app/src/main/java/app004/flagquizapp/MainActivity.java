@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
                 .registerOnSharedPreferenceChangeListener(preferencesChangeListener);
     }
 
+    /////Debo generar algun cambio para que se guarde
+
     private void screenSetUp() {
         if (getScreenSize() == Configuration.SCREENLAYOUT_SIZE_LARGE ||
                 getScreenSize() == Configuration.SCREENLAYOUT_SIZE_XLARGE) {
